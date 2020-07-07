@@ -1,12 +1,33 @@
 {
-  "name": "mobile-flashcards",
-  "displayName": "mobile-flashcards",
   "expo": {
     "name": "mobile-flashcards",
+    "description": "This app allows you to create flashcard decks, add cards/questions to the decks and quiz yourself on each deck.",
     "slug": "mobile-flashcards",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icons/icon.png",
+    "splash": {
+      "image": "./icons/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./icons/icon.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "githubUrl": "https://github.com/bpruvost0/mobile-flashcards"
   }
 }
